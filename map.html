@@ -333,20 +333,7 @@
 
   <script>
     function gmError() {
-      document.getElementById('map').innerHTML = 
-        '<div style="padding:20px;text-align:center;">' +
-        '<h2 class="error">Failed to load Google Maps</h2>' +
-        '<p>Please check your API key and internet connection</p>' +
-        '</div>';
-    }
-    
-    function closeAgriPanel() {
-      document.getElementById('agriInfoPanel').style.display = 'none';
-    }
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9Fwm_t6uqySNWvtjK4yxm9Ea09UbLfgQ&callback=initMap&libraries=visualization" 
-          async onerror="gmError()"></script>
-  
+     
   <script src="nirmaltodwal.js"></script>
  
 </body>
