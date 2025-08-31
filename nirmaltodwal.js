@@ -1,17 +1,17 @@
-const GOOGLE_MAPS_API_KEY = "AIzaSyC9Fwm_t6uqySNWvtjK4yxm9Ea09UbLfgQ";
-const GEOCODING_API_URL = "https://maps.googleapis.com/maps/api/geocode/json";
-const WAQI_API_KEY = "302b9fd73dfa28a814abe002bdc2dae97511e826";
-const WAQI_API_URL = "https://api.waqi.info/feed/geo:";
-const SOILGRIDS_API_URL = "https://rest.isric.org/soilgrids/v2.0/classification/query";
+const GOOGLE_MAPS_API_KEY = 
+const GEOCODING_API_URL = 
+const WAQI_API_KEY = 
+const WAQI_API_URL = 
+const SOILGRIDS_API_URL = 
 
 let map;
-let defaultLocation = { lat: 28.6139, lng: 77.2090 };
-let currentLocationName = "Selected Location";
+let defaultLocation = { };
+let currentLocationName = "";
 let currentMarker = null;
 let currentCoordinates = null;
 
 function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
+  map = new google.maps.Map(document.getElementById(""), {
     center: defaultLocation,
     zoom: 12,
     mapTypeControl: true,
